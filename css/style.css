@@ -1,0 +1,75 @@
+*{padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+#slide{
+	background-image:url(../image/events.jpg);
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/events.jpg);
+	height:100vh;
+	background-position:bottom;
+	background-size:cover;
+	background-attachment:fixed;
+	}
+.slide-1{
+	display:flex;
+	padding:20px;
+}
+.slide-1 h3{
+	color:#cda45e;
+	font-size:40px;
+}
+.price span{
+	color:#ffff;
+	font-size:30px;
+	border-bottom:3px solid #cda45e;
+}
+.italic{
+	color:#ffff;
+	font-style:italic;
+}
+.slide-1 p,.slide-1 ul{
+	color:#ffff;
+	list-style-type:none;
+	font-size:18px;
+}
+.slide-1 li{
+	padding-bottom:10px;
+}
+.col-lg-6{
+	padding:20px;
+}
+
+
+#card{
+	background-color:#000;
+}
+.card-cont{
+	color:#ffff;
+}
+.card-cont span{
+	color:#cda45e;
+}
+.col-lg-3 img{
+	border:5px solid gray;
+	border-radius:50%;
+}
+.carousal-card-col h3,.carousal-card-col h4{
+	color:#ffff;
+}
+.carousel-card-row{
+	width:100%;
+	display:flex;
+}
+.carousal-card-col{
+	width:33.33%;
+}
+
+
+#card-1{
+	display:flex;
+	background-color:#cdcdcd;
+	margin-top:20px;
+}
+.col-lg-4{
+	padding-left:5%;
+}

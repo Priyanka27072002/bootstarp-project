@@ -1,0 +1,24 @@
+/*mobile*/
+@media(min-width:320px){
+	.slide-1{
+		flex-wrap:wrap;
+	}
+	#slide{
+		height:100%;
+	}
+	#card-1{
+		flex-wrap:wrap;
+	}
+	.card{
+		margin-top:20px;
+		}
+	.col-lg-4{
+	padding-left:12%;
+}
+
+}
+@media(min-width:1000px){
+	.col-lg-4{
+		padding-left:5%;
+	}
+}
